@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gayatri - Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .resume {
+            width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #222;
+            padding-bottom: 15px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            color: #222;
+            margin-bottom: 5px;
+        }
+
+        .header h3 {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            font-size: 14px;
+        }
+
+        .contact a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Sections */
+        .section {
+            margin-top: 25px;
+        }
+
+        .section h2 {
+            font-size: 19px;
+            color: #222;
+            border-bottom: 2px solid #222;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .education-item h3 {
+            font-size: 16px;
+        }
+
+        .education-item p {
+            font-size: 14px;
+            margin: 2px 0;
+        }
+
+        /* Skills */
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 14px;
+        }
+
+        /* Projects */
+        .project {
+            margin-bottom: 15px;
+        }
+
+        .project h3 {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .project p {
+            font-size: 14px;
+        }
+
+        /* Lists */
+        ul {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Print Button */
+        .print-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #222;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .print-btn:hover {
+            background-color: #444;
+        }
+
+        /* Print Settings */
+        @media print {
+            body {
+                background: white;
+            }
+
+            .resume {
+                width: 100%;
+                margin: 0;
+                padding: 25px;
+                box-shadow: none;
+            }
+
+            .print-btn {
+                display: none;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 850px) {
+            .resume {
+                width: 95%;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <!-- HEADER -->
+        <div class="header">
+
+            <h1>GAYATRI</h1>
+
+            <h3>B.E. Computer Science and Engineering Student</h3>
+
+            <div class="contact">
+                Bengaluru, Karnataka |
+                +91 968673210 |
+                gayatritakkalaki137@email.com
+                <br>
+
+                <a href="https://github.com/GayatriBasavaraj" target="_blank">
+                    GitHub
+                </a>
+                |
+                <a href="https://www.linkedin.com/in/gayatri-takkalaki/">
+                    LinkedIn
+                </a>
+            </div>
+
+        </div>
+
+
+        <!-- CAREER OBJECTIVE -->
+        <div class="section">
+
+            <h2>Career Objective</h2>
+
+            <p>
+                Motivated Computer Science and Engineering student with an
+                interest in programming, software development, databases and
+                problem solving. Seeking an opportunity to apply my technical
+                skills, gain practical experience and contribute to real-world
+                software development projects.
+            </p>
+
+        </div>
+
+
+        <!-- EDUCATION -->
+        <div class="section">
+
+            <h2>Education</h2>
+
+            <div class="education-item">
+
+                <h3>B.E. Computer Science and Engineering</h3>
+
+                <p>
+                    Bangalore Institute of Technology (BIT), Bengaluru
+                </p>
+
+                <p>
+                    Expected Graduation: 2028<br>
+                    CGPA: 7.03/10
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <h3>Diploma in Computer Science and Engineering</h3>
+
+                <p>
+                    Government Polytechnic Kalaburagi |CGPA: 8.88
+                </p>
+
+                <p>
+                    Year of Completion: 2025
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <h3>SSLC</h3>
+
+                <p>
+                    Government High School Khajuri |Percentage: 92.32
+                </p>
+
+                <p>
+                    Year of Completion: 2022<br>
+                    
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- TECHNICAL SKILLS -->
+        <div class="section">
+
+            <h2>Technical Skills</h2>
+
+            <div class="skills">
+
+                <div><b>Programming:</b> Python, Java</div>
+
+                <div><b>Web:</b> HTML, CSS</div>
+
+                <div><b>Database:</b> MySQL, SQL</div>
+
+                <div><b>Tools:</b> VS Code, Git, GitHub</div>
+
+                <div><b>Core Concepts:</b> DSA, DBMS</div>
+
+                <div><b>Other:</b> Problem Solving</div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECTS -->
+        <div class="section">
+
+            <h2>Projects</h2>
+
+
+            <div class="project">
+
+                <h3>Music Streaming Application</h3>
+
+                <p>
+                    
+Developed a full-stack music streaming application that allows users to register, log in, search and play songs, and create and manage playlists. The project includes responsive frontend development, backend API integration, database management, and cloud-based media storage.
+
+
+                </p>
+
+                <p>
+                    <b>Technologies:</b> HTML, CSS, React js, Cloudinary
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>Smart Hostel Management System</h3>
+
+                <p>
+                   Developed a database-driven hostel management system to automate student management, room allocation, fee payments, complaints, attendance, and visitor records. The system provides a centralized platform for efficient hostel administration and uses DBMS concepts such as primary keys, foreign keys, normalization, triggers, and stored procedures for data integrity and management.
+                </p>
+
+                <p>
+                    <b>Technologies:</b> React.js, Python Flask, MySQL, HTML, CSS, Bootstrap/Tailwind CSS.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CERTIFICATIONS -->
+        <div class="section">
+
+            <h2>Certifications</h2>
+
+            <ul>
+
+                <li>Python Programming Certificate</li>
+
+                <li>Cisko Certified Network Associate Certificate</li>
+
+                <li>Google Cloud Data Analytics</li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- ACHIEVEMENTS -->
+        <div class="section">
+
+            <h2>Personal Details</h2>
+
+            <p>
+                <b>Date of Birth:</b> 18/04/2006<br>
+                <b>Languages Known: </b>Kannada, English, Hindi<br>
+                <b>Nationality:</b> Indian<br>
+                <b>Location:</b> Bengaluru, Karnataka
+            </p>
+
+        </div>
+
+
+        <!-- DECLARATION -->
+        <div class="section">
+
+            <h2>Declaration</h2>
+
+            <p>
+                I hereby declare that the information provided above is true
+                and correct to the best of my knowledge.
+            </p>
+
+            <br>
+
+            <p style="text-align:right;">
+                <b>GAYATRI</b>
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
